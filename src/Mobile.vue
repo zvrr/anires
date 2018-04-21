@@ -18,14 +18,13 @@
     },
     data() {
       return {
-        interval: 40,
+        interval: 20,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
-* 大家好，我是南方。
-* 我来写一份简历！
+* 大家好，我是珍爱网平台技术部小猎手，
+* 我来找些攻城狮！
 */
 
 /* 首先给所有元素加上过渡效果 */
@@ -83,13 +82,13 @@ html{
   background: white; color: #222;
   overflow: auto;
 }
-/* 好了，我开始写简历了 */
+/* 好了，开始团队和职位介绍 */
 
 
 `,
           `
 /* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
+ * 对了，这是 Markdown 格式的，我需要变成更友好的格式
  * 简单，用开源工具翻译成 HTML 就行了
  */
 `
@@ -126,106 +125,70 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `南方
+                fullMarkdown: `平台产品部
 ====
 
-资深软件工程师，资深产品经理，高级项目经理。现为自由职业。
+坐标：深圳南山区航天科技广场A座20楼
 
-技能
+团队：珍爱网平台验技术部，一直致力成为最专业有爱的团队。
+
+致力于连接线上和线下，打造高满意用户相亲恋爱体验服务，解决广大单身男女婚恋困扰，成就天下姻缘。
+
+负责公司核心系统，高可用高性能架构研发工作，提供1.4亿会员的全链路生命周期管理系统，
+
+以连接和智能两大核心产品设计为理念，基于分布式微服务理念构建，实践混合云、敏捷开发、持续集成、自动化测试等系列创新，
+
+对外提供简单好用的服务，承载日均20亿基础信息请求、输出资源分配、实时推荐、短信通道等基础服务。
+
+[Boss直聘](https://m.zhipin.com/weijd/v2/boss/d86daeaa870e28d31HJ53N-_E1Y~?aid=07b5df7e131fbe2e1w~~&sid=self)
+
+高级JAVA研发工程
 ====
 
-数据库设计
+岗位描述
 ----
-  - 结构化数据库设计
-  - noSQL设计
+1. 负责珍爱网核心系统相关产品研发
+2. 负责Linux下高可用分布式Java服务设计开发和数据库优化
+3. 能够承担项目技术攻坚项目
+4. 参与平台微服务化架构设计
 
-后端开发
+岗位要求
 ----
-  - 用户管理
-  - 单点登录
-  - 第三方登录
-  - 权限管理
-  - 交易系统
-  - 支付系统
-  - 社区系统
-  - 博客系统
-  - 公众号开发
-  - 小程序开发
-  - API接口
+1. 本科以上学历，计算机相关专业，具有互联网项目开发经验；
+2. 3年或以上JAVA开发经验，熟悉MVC架构和UML建模语言等相关技术；
+3. 熟练使用主流开发框架，如Spring cloud,dubbo, 消息队列等；
+4. 熟悉shell脚本，有awk等使用经验；
+5. 精通Mysql相关知识，有数据库调优经验者优先；
+6. 有大数据服务开发经验，能够处理高并发服务者优先；
+7. 熟悉公有云环境和相关组件服务；
+7. 熟悉网络、多线程、IO、内存管理等方面编程；
+8. 良好的学习和沟通能力，责任心强，能够独立并有效解决问题。。
 
-前端开发
-----
-  - Web前端开发
-  - 移动终端(Native App, Hybrid App)
-
-产品设计
-----
-  - 智慧旅游项目
-  - 运动健康云平台
-  - 社区支持农业O2O项目
-  - 省级环境监控平台
-  - 高速公路异地处罚系统
-  - 环保局办公自动化系统
-  - 保险公司数据迁移项目
-  - 啤酒厂供应链项目
-  - 货运代理系统
-  - 集装箱管理系统
-  - 滞期费管理项目
-
-技术及语言
-----
-  - Java: SpringMVC, SpringCloud, Hibernate, iBatis, spark, sql2o, HikariCP, freemarker, okHttp, retrofit, picasso, RxJava, Gson, Moshi
-  - Kotlin: ktor, exposed, anko
-  - Node.js: express, angular, ionic, react, cordova, meteor, electron, axios
-  - Swift: Vapor, ReactiveSwift, ReactiveCocoa, SwiftJson
-  - Golang: hugo, beego, gorm, sqlx, matcha
-  - Python: tushare, pandas, numpy, matplotlib
-  - DotNet and PHP
-  - DB: SQLServer, Oracle, MySQL/MariaDB, MongoDB, graphQL, redis, memcached
-  - WebServer: apache, nginx, tomcat, netty, jetty
-  - OS: Ubuntu, CentOS, MacOS, Windows
-  - Others: Docker, git, Xmind
-
-工作经历
+高级Android研发工程
 ====
 
-1. 湖南融耀健康管理有限公司
-2. 湖南三英特旅游智能技术有限公司
-3. 合肥蓝盾科技有限公司
-4. 上海易保网络有限公司
-5. 厦门海环计算机软件有限公司
+岗位描述
+----
+1. 负责珍爱网核心系统相关产品安卓版研发
+2. 负责Android新技术的预研、引入，底层框架设计，基本组件研发、工具研发；
+3. 负责重大或疑难问题的技术攻关
 
-教育经历
-====
-
-1. 华东理工大学 环境工程学士
-2. 厦门大学 系统工程硕士
-
-文章
-====
-
-* [故土难离（我的父亲母亲）](https://www.meipian.cn/qacqfbz?user_id=6119180&uuid=d541c15eef694065bc9d1ac9a07925a2&idfa=F1F97D3A-B60D-4189-8CC6-D2254119F7E8&utm_medium=meipian_ios&utm_source=singlemessage&v=4.3.2&from=singlemessage&isappinstalled=1)
-* [油腻腻的中年（小诗）](https://www.meipian.cn/wjaz3zh?user_id=6119180&uuid=ca1cd053b717451da781786de44e66e7&idfa=F1F97D3A-B60D-4189-8CC6-D2254119F7E8&utm_medium=meipian_ios&utm_source=singlemessage&v=4.3.2&from=singlemessage&isappinstalled=1)
-* [生命（老四们的蝼蚁人生）](https://www.meipian.cn/vc4pr59?user_id=6119180&uuid=799c98f5a187405c94c86f7da7788869&idfa=F1F97D3A-B60D-4189-8CC6-D2254119F7E8&utm_medium=meipian_ios&utm_source=singlemessage&v=4.3.2&from=singlemessage&isappinstalled=1)
-* [大健康商业模式](http://www.sitexa.org/technology/%E5%A4%A7%E5%81%A5%E5%BA%B7%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.html)
-* [社区社交商业模型](http://www.sitexa.org/other/%E7%A4%BE%E5%8C%BA%E7%A4%BE%E4%BA%A4%E5%95%86%E4%B8%9A%E6%A8%A1%E5%9E%8B.html)
-
-链接
-====
-
-* [GitHub](https://github.com/sitexa)
-* [技术博客](http://www.sitexa.org)
-* [南方时代](http://www.sitexa.net)
-* [神秘湘鄂西](http://www.sitexa.cn)
+岗位要求
+----
+1. 本科以上学历，计算机相关专业，具有互联网项目开发经验；
+2. 3年及以上Android软件开发经验，熟悉Android平台SDK以及框架原理，并具有开发SDK的能力，精通性能调优方法;
+3. 具备解决复杂业务技术问题的能力，有多个完整的Android项目经验，并至少在一个大型项目中承担核心设计与开发工作;
+4. 具备音视频项目经验或一线App项目研发经验者优先；
+5. 精通Mysql相关知识，有数据库调优经验者优先；
+6. 熟悉网络、多线程、IO、内存管理等方面编程；
+7. 良好的学习和沟通能力，责任心强，能够独立并有效解决问题。
 
 联系方式
 ====
 
-* 电话：18673107430
-* 微信：18673107430
-* 邮箱：xnpeng@163.com
-
-[下载简历](http://www.sitexa.org/anires/static/resume.pdf)
+* [Boss直聘珍爱网平台技术部](https://m.zhipin.com/weijd/v2/boss/d86daeaa870e28d31HJ53N-_E1Y~?aid=07b5df7e131fbe2e1w~~&sid=self)
+* 邮箱：goborabora@qq.com
+* ![微信](https://raw.githubusercontent.com/zvrr/anires/master/static/WechatIMG5.jpeg)
 
 `
       }
