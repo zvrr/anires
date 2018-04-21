@@ -23,7 +23,7 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* 大家好，我是珍爱网平台技术部小猎手，
+* 大家好，我是珍爱网平台产品研发部小猎手，
 * 我来找些攻城狮！
 */
 
@@ -110,13 +110,13 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `平台产品部
+        fullMarkdown: `平台产品研发部
 ====
 
 
 坐标：深圳市南山区航天科技广场A座20楼
 
-团队：珍爱网平台验技术部，一只致力成为最专业有爱的团队。
+团队：珍爱网平台产品研发部，一只致力成为最专业有爱的团队。
 
 致力于连接线上和线下，打造高满意用户相亲恋爱体验服务，解决广大单身男女婚恋困扰，成就天下姻缘。
 
@@ -129,7 +129,7 @@ html{
 承载基础信息、资源分配、心理测试、匹配搜索、实时推荐、短信通道、语音识别、图片、视频分析等基础服务。
 
 
-高级JAVA研发工程
+高级JAVA研发工程师
 ====
 
 岗位描述
@@ -151,7 +151,7 @@ html{
 7. 熟悉网络、多线程、IO、内存管理等方面编程；
 8. 良好的学习和沟通能力，责任心强，能够独立并有效解决问题。
 
-高级Android研发工程
+高级Android研发工程师
 ====
 
 岗位描述
@@ -173,10 +173,11 @@ html{
 联系方式
 ====
 
-* [Boss直聘珍爱网平台技术部](https://m.zhipin.com/weijd/v2/boss/d86daeaa870e28d31HJ53N-_E1Y~?aid=07b5df7e131fbe2e1w~~&sid=self)
+* [Boss直聘珍爱网平台产品研发部](https://m.zhipin.com/weijd/v2/boss/d86daeaa870e28d31HJ53N-_E1Y~?aid=07b5df7e131fbe2e1w~~&sid=self)
 * 邮箱：goborabora@qq.com
-* ![微信](https://raw.githubusercontent.com/zvrr/anires/master/static/WechatIMG5.jpeg)
+* ![微信](https://raw.githubusercontent.com/zvrr/anires/master/static/WechatIMG5.png)
 
+* 感谢[南方](http://www.sitexa.org/anires/public/)创意支持
 `
       }
     },
