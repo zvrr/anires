@@ -183,7 +183,7 @@ html{
 * 邮箱：goborabora@qq.com
 * ![微信](https://raw.githubusercontent.com/zvrr/anires/master/static/WechatIMG5.png)
 
-* 感谢[南方](http://www.sitexa.org/anires/public/)创意支持
+* 感谢[jirengu-inc](https://github.com/jirengu-inc/animating-resume)开源
 
 `
       }
