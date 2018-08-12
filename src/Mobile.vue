@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <StyleEditor ref="styleEditor" :code="currentStyle"></StyleEditor>
+    <StyleEditor ref="styleEditor" :code="currentStyle" v-if="isShow == true"></StyleEditor>
     <ResumeEditor ref="resumeEditor" :markdown="currentMarkdown" :enableHtml="enableHtml"></ResumeEditor>
   </div>
 </template>
@@ -18,6 +18,7 @@
     },
     data() {
       return {
+        isShow: true,
         interval: 10,
         currentStyle: '',
         enableHtml: false,
@@ -174,6 +175,7 @@ ABTest，广告推荐，反作弊，元数据管理，数据安全权限，数�
         await this.progressivelyShowStyle(1)
         await this.showHtml()
         await this.progressivelyShowStyle(2)
+        await this.hideStyleEditor()
       },
       showHtml: function () {
         return new Promise((resolve, reject) => {
@@ -229,6 +231,13 @@ ABTest，广告推荐，反作弊，元数据管理，数据安全权限，数�
           }
           showResume()
         })
+      },
+      hideStyleEditor(){
+        let that = this
+        setTimeout(function(){
+          that.isShow = false
+        },3000)
+
       }
     }
   }
