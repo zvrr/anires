@@ -236,7 +236,7 @@ ABTest，广告推荐，反作弊，元数据管理，数据安全权限，数�
         let that = this
         setTimeout(function(){
           that.isShow = false
-        },3000)
+        },2000)
 
       }
     }
