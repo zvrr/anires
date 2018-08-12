@@ -31,6 +31,7 @@
 
   @media (max-width:500px){
     .resumeEditor{
+      margin-left: 30px
     }
   }
   .htmlMode {
