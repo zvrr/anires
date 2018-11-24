@@ -156,11 +156,10 @@ ABTest，广告推荐，反作弊，元数据管理，数据安全权限，数�
 #### --------------------------
 
 1. [猛戳招聘详情Boss直聘](https://www.zhipin.com/job_detail/0e09f186783b27b01XB-39-4GVU~.html)
-2. 邮箱：zelus.wu@nf-3.com
-3. ![微信zeluswu](https://s1.ax1x.com/2018/08/12/PcJ8D1.png)
-4. 坐标：深圳 南山 软件产业基地 5栋C座 1001A
-5. [公司快速发展壮大，http://www.szshuwei.com](http://www.szshuwei.com)
-6. 感谢[jirengu-inc](https://github.com/jirengu-inc/animating-resume)开源
+2. 坐标：深圳 南山 科兴科技园 B1栋 18楼
+3. [公司快速发展壮大，http://www.szshuwei.com](http://www.szshuwei.com)
+
+4. 感谢[jirengu-inc](https://github.com/jirengu-inc/animating-resume)开源
 
 `
       }
